@@ -1,5 +1,5 @@
-SIMPLE: Signal.cpp Semaphore.cpp Semaphore.h
-	g++ -std=c++11 -pthread Signal.cpp Semaphore.cpp Semaphore.h -o signal
+SIMPLE: Mutex.cpp Semaphore.cpp Semaphore.h
+	g++ -std=c++11 -pthread Mutex.cpp Semaphore.cpp Semaphore.h -o mutex
 
 CLEAN:
 	rm *.o
